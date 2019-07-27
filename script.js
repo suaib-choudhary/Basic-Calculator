@@ -2,7 +2,7 @@
 									
 			function fun(val){
 				var str=document.getElementById('display').innerHTML.length;
-				if(str>22){
+				if(str>35){
 					window.alert("max Length reached");
 				}else{
 				document.getElementById('display').innerHTML+=val;
